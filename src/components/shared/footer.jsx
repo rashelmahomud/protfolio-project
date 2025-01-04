@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
-    <div className="grid grid-cols-4 bg-[#1A1E23] p-4 border-t-2 border-gray-700 text-gray-400">
+    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 bg-[#1A1E23] p-4 border-t-2 border-gray-700 text-gray-400 gap-5">
       <div>
         <p>© 2023 rashel. All rights reserved.</p>
       </div>
