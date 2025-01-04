@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
        <div className="bg-[#292F36] text-gray-300 font-semibold ">
-         <div className="container mx-auto flex justify-between py-12 px-2 border-b-2">
+         <div className="container mx-auto flex justify-between py-12 px-2 border-b-2 border-gray-700">
             <div>
                 <span>md.Rashel</span>
             </div>
