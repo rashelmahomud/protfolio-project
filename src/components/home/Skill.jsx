@@ -15,12 +15,14 @@ import Util from "../shared/Util";
 
 const Skill = () => {
   return (
-    <div className='bg-[url("/assates/abc5.png")] bg-no-repeat bg-center bg-cover my-3'>
+    <div className='bg-[url("/assates/abc5.png")] bg-no-repeat bg-center bg-cover'>
       <div className=" bg-[#1A1E23] bg-opacity-60 p-20">
         <div>
           <div className="flex justify-center gap-20">
-            <div className="ml-32"><Util /></div>
-            <span className="mt-20">
+            <div className="ml-32">
+              <Util />
+            </div>
+            <span className="mt-20 hidden sm:block">
               <FontAwesomeIcon icon={faCode} className="w-28 text-[#12F7D6]" />
             </span>
           </div>
@@ -31,7 +33,7 @@ const Skill = () => {
               I am striving to never stop learning and improving
             </p>
           </div>
-          <div className="flex gap-10 justify-center my-10">
+          <div className="flex gap-10 lg:flex-row flex-col justify-center my-10">
             <div className="bg-[#98FAEC] border-l-8 border-indigo-200 border-l-indigo-500 p-5 rounded-lg text-center ">
               <FontAwesomeIcon
                 icon={faLaptop}
@@ -55,29 +57,31 @@ const Skill = () => {
               <p className="text-gray-700">ios. Android</p>
             </div>
           </div>
-          <ul className="flex gap-20 text-center justify-center text-white">
-            <li className="">
-              <FontAwesomeIcon
-                className="mb-2 bg-[#E54F26] w-20 h-20 rounded-full p-4"
-                icon={faHtml5}
-              />
+          <ul className="grid lg:grid-cols-4 md:grid-cols-2 text-center text-white gap-10 lg:px-32 lg:mx-20">
+            <li className="flex flex-col  items-center">
+              <span>
+                <FontAwesomeIcon
+                  className="mb-2 bg-[#E54F26] w-20 h-20 rounded-full p-4"
+                  icon={faHtml5}
+                />
+              </span>
               <span className="text-[#E54F26]">HTML</span>
             </li>
-            <li className="">
+            <li className="flex flex-col  items-center">
               <FontAwesomeIcon
                 className="mb-2 bg-[#0C73B8] w-20 h-20 rounded-full p-4"
                 icon={faCss3Alt}
               />
               <span className="text-[#0C73B8]">CSS</span>
             </li>
-            <li className="">
+            <li className="flex flex-col  items-center">
               <FontAwesomeIcon
                 className="mb-2 bg-[#E7A020] w-20 h-20 rounded-full p-4"
                 icon={faNodeJs}
               />
               <span className="text-[#E7A020]">JS</span>
             </li>
-            <li className="">
+            <li className="flex flex-col  items-center">
               <FontAwesomeIcon
                 className="mb-2 bg-[#28A9E0] w-20 h-20 rounded-full p-4"
                 icon={faReact}
