@@ -16,16 +16,16 @@ const Blogs = () => {
             My thoughts on technology and business, welcome to subscribe
           </p>
         </div>
-        <div className="lg:px-20 p-10 mx-20 ">
-          <div className="flex gap-10 border-y-2 border-gray-600 py-8">
+        <div className="lg:px-20 p-3 lg:mx-20 mx-5 ">
+          <div className="flex flex-col lg:flex-row gap-10 border-y-2 border-gray-600 py-8">
             <Image
               src={"/assates/abc3.jpg"}
               width={400}
               height={400}
               alt="blogs image"
             />
-            <div className="p-10">
-              <h1 className="text-[#12F7D6] text-2xl">
+            <div className="lg:p-10 p-3">
+              <h1 className="text-[#12F7D6] lg:text-2xl">
                 What does it take to become a web developer?
               </h1>
               <p className="text-gray-400 my-5">
@@ -39,7 +39,7 @@ const Blogs = () => {
               >
                 Read More...
               </Link>
-              <ul className="flex gap-5 text-white my-5">
+              <ul className="flex lg:flex-row flex-col gap-5 text-white my-5">
                 <li className="bg-gray-500 px-2 rounded-full">Web development</li>
                 <li>Text Sinan</li>
                 <li>Date : 10.Oct 2025</li>
