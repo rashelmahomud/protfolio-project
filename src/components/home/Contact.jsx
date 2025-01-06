@@ -21,13 +21,13 @@ const Contact = () => {
             Send Me A Message
           </button>
         </div>
-        <div className="container mx-auto py-5">
+        <div className="container mx-auto py-5 p-3">
           <form>
             <div className="grid gap-10 mb-6 grid-cols-2 lg:mx-20 lg:px-20 p-5">
               <div className="text-left">
                 <label
                   htmlFor="name"
-                  className="text-white "
+                  className="text-[#12F7D6]"
                 >
                   Your Name: 
                 </label>
@@ -42,7 +42,7 @@ const Contact = () => {
               <div className="text-left">
                 <label
                   htmlFor="email"
-                  className="text-white"
+                  className="text-[#12F7D6]"
                 >
                   Your Email: 
                 </label>
@@ -57,7 +57,7 @@ const Contact = () => {
               <div className="text-left col-span-2">
                 <label
                   htmlFor="message"
-                  className="text-white"
+                  className="text-[#12F7D6]"
                 >
                   Your Message: 
                 </label>
