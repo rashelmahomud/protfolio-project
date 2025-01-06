@@ -37,7 +37,6 @@ const Banner = () => {
                 rashelmahmudraj1998@gmail.com
               </li>
               <li className="flex gap-2">
-                {" "}
                 <FontAwesomeIcon
                   icon={faLocationDot}
                   className="w-3 text-[#12F7D6]"
