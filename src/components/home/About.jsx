@@ -22,14 +22,14 @@ const HomeAbout = () => {
               and <span className="text-[#12F7D6]">REACT</span> etc.
               <br />I am a highly motivated individual and eternal optimist
               dedicated to writing clear, concise, robust code that works.
-              Striving to never stop{" "}
+              Striving to never stop
               <span className="text-[#12F7D6]">
                 learning and improving
               </span>. <br />
               I am a highly motivated individual and eternal optimist dedicated
               to writing clear, concise, robust code that works. Striving to
               never stop learning and improving. <br />I like to have my
-              perspective and belief{" "}
+              perspective and belief
               <span className="text-[#12F7D6]">systems</span> challenged so that
               I see the world through new eyes.
             </p>
@@ -39,7 +39,7 @@ const HomeAbout = () => {
         <div className="mt-10">
           <Image
             src={"/assates/abc2.jpg"}
-            className="rounded"
+            className="rounded mx-auto"
             width={300}
             height={300}
             alt="about image"
