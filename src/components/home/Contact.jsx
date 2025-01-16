@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Util from "../shared/Util";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import Line from "../shared/Line";
 
 const Contact = () => {
   return (
@@ -12,7 +13,7 @@ const Contact = () => {
       </div>
       <div className="text-center">
         <h1 className="text-6xl text-[#12F7D6] font-semibold">Contact</h1>
-        <h1 className="bg-[#12F7D6] w-24 rounded-lg mx-auto my-3 h-1 "></h1>
+        <Line />
         <p className="text-white font-semibol ">
           I’m currently available for freelance work
         </p>

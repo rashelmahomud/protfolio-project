@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Util from "../shared/Util";
 import Image from "next/image";
+import Line from "../shared/Line";
 
 const Works = () => {
   const slides = [
@@ -46,7 +47,7 @@ const Works = () => {
         </div>
         <div className="text-center">
           <h1 className="text-6xl text-[#12F7D6] font-semibold">Works</h1>
-          <h1 className="bg-[#12F7D6] w-24 rounded-lg mx-auto my-3 h-1 "></h1>
+          <Line small />
           <p className="font-semibol text-white">
             I had the pleasure of working with these awesome projects
           </p>

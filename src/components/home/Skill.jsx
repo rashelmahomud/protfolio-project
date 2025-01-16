@@ -12,6 +12,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Util from "../shared/Util";
+import Line from "../shared/Line";
 
 const Skill = () => {
   return (
@@ -28,7 +29,7 @@ const Skill = () => {
           </div>
           <div className="text-center">
             <h1 className="text-6xl text-[#12F7D6] font-semibold">Skills</h1>
-            <h1 className="bg-[#12F7D6] w-24 rounded-lg mx-auto my-3 h-1 "></h1>
+            <Line small />
             <p className="text-white font-semibol">
               I am striving to never stop learning and improving
             </p>

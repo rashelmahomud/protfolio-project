@@ -1,3 +1,4 @@
+import Line from "@/components/shared/Line";
 import Util from "@/components/shared/Util";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,7 +12,7 @@ const Blogs = () => {
         </div>
         <div className="text-center">
           <h1 className="text-6xl text-[#12F7D6] font-semibold">Blogs</h1>
-          <h1 className="bg-[#12F7D6] w-24 rounded-lg mx-auto my-3 h-1 "></h1>
+          <Line small />
           <p className="text-white font-semibol">
             My thoughts on technology and business, welcome to subscribe
           </p>
