@@ -72,11 +72,11 @@ const Banner = () => {
                 REACT
               </li>
             </ul>
-            <button className="flex justify-center items-center gap-2 bg-white text-gray-300 font-semibold text-[#292F36] text-xl leading-6 p-4 rounded-full my-3">
-              Download CV{" "}
+            <button className="flex justify-center items-center gap-2 bg-white text-gray-300 font-semibold text-gray-600 text-xl leading-6 p-4 rounded-full my-3">
+              Download CV
               <FontAwesomeIcon
                 icon={faDownload}
-                className="w-5 text-gray-400"
+                className="w-5 text-gray-600"
               />
             </button>
           </div>
