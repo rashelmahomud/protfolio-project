@@ -23,7 +23,7 @@ const Header = () => {
             {open ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />}
           </div>
 
-          <ul className={`lg:flex gap-5 transition-all duration-500 ease-in  ${open ? "top-18 opacity-100" : "top-[-490px] lg:opacity-100 opacity-0"}`}>
+          <ul className={`lg:flex gap-5 transition-all duration-500 ease-in  ${open ? "top-18 opacity-100" : "top-[-490px] lg:opacity-100 opacity-0 lg:mt-0 -mt-40"}`}>
             <li className="text-[#12F7D6]">
               <Link href={"/"}>Home</Link>
             </li>
@@ -31,7 +31,7 @@ const Header = () => {
             <li>
               <Link href={"/blog"}>Blogs</Link>
             </li>
-            <li className="relative">
+            <li className="relative lg:my-0 my-2">
                 <FontAwesomeIcon
                   icon={faMagnifyingGlass}
                   className="lg:w-5 absolute ml-40 mt-1 text-gray-500"
