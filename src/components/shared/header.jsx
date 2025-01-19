@@ -29,7 +29,7 @@ const Header = () => {
             </li>
 
             <li>
-              <Link href={"/blog"}>Blog</Link>
+              <Link href={"/blog"}>Blogs</Link>
             </li>
             <li className="relative">
                 <FontAwesomeIcon
