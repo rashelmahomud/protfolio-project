@@ -18,12 +18,12 @@ const Header = () => {
         <div>
           <span>md.Rashel</span>
         </div>
-        <div className="">
-          <div onClick={() => setOpen(!open)} className="w-5 text-[#12F7D6] lg:hidden mr-10">
+        <div className="flex flex-row-reverse ml-16">
+          <div onClick={() => setOpen(!open)} className="w-5 text-[#12F7D6] lg:hidden">
             {open ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />}
           </div>
 
-          <ul className={`lg:flex gap-5 transition-all duration-500 ease-in ${open ? "top-18 opacity-100 " : "top-[-490px] lg:opacity-100 opacity-0"}`}>
+          <ul className={`lg:flex gap-5 transition-all duration-500 ease-in  ${open ? "top-18 opacity-100" : "top-[-490px] lg:opacity-100 opacity-0"}`}>
             <li className="text-[#12F7D6]">
               <Link href={"/"}>Home</Link>
             </li>
@@ -38,25 +38,25 @@ const Header = () => {
                 />
                 <input
                   type="text"
-                  className="rounded-full outline-none"
+                  className="rounded-full outline-none lg:w-50"
                   placeholder=""
                 />
             </li>
-            <li className="flex justify-center items-center gap-2">
+            <li className="flex items-center gap-1">
               <FontAwesomeIcon
                 icon={faInstagram}
                 className="w-5 text-[#12F7D6]"
               />
               <Link href={"/instagram"}>Instagram</Link>
             </li>
-            <li className="flex justify-center items-center gap-2">
+            <li className="flex items-center gap-1">
               <FontAwesomeIcon
                 icon={faDiscord}
                 className="w-5 text-[#12F7D6]"
               />
               <Link href={"/discord"}>Discord</Link>
             </li>
-            <li className="flex justify-center items-center gap-2">
+            <li className="flex items-center gap-1">
               <FontAwesomeIcon icon={faGithub} className="w-5 text-[#12F7D6]" />
               <Link href={"/github"}>Github</Link>
             </li>
