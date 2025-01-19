@@ -56,7 +56,7 @@ const Contact = () => {
                 <input
                   className="bg-[#1A1E23] border-b-2 border-gray-500 py-2 w-full mt-2"
                   type="text"
-                  name="user_name"
+                  name="name"
                   required
                 />
               </div>
@@ -67,7 +67,7 @@ const Contact = () => {
                 <input
                   className="bg-[#1A1E23] border-b-2 border-gray-500 py-2 w-full mt-2"
                   type="email"
-                  name="user_email"
+                  name="email"
                   placeholder="Email"
                   required
                 />
