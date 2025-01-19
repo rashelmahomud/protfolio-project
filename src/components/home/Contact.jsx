@@ -20,7 +20,7 @@ const Contact = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          alert("successFully Send Email!");
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -54,7 +54,7 @@ const Contact = () => {
                   Your Name:
                 </label>
                 <input
-                  className="bg-[#1A1E23] border-b-2 border-gray-500 py-2 w-full mt-2"
+                  className="bg-[#1A1E23] text-white border-b-2 border-gray-500 py-2 w-full mt-2"
                   type="text"
                   name="name"
                   required
@@ -65,7 +65,7 @@ const Contact = () => {
                   Your Email:
                 </label>
                 <input
-                  className="bg-[#1A1E23] border-b-2 border-gray-500 py-2 w-full mt-2"
+                  className="bg-[#1A1E23] border-b-2 border-gray-500 py-2 w-full mt-2 text-white"
                   type="email"
                   name="email"
                   placeholder="Email"
@@ -77,7 +77,7 @@ const Contact = () => {
                   Your Message:
                 </label>
                 <input
-                  className="bg-[#1A1E23] border-b-2 border-gray-500 py-2 w-full mt-2"
+                  className="bg-[#1A1E23] border-b-2 border-gray-500 py-2 w-full mt-2 text-white"
                   name="message"
                   placeholder="message type"
                   required
