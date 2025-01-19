@@ -1,10 +1,10 @@
-'use client'
+"use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Util from "../shared/Util";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import Line from "../shared/Line";
 import { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
@@ -15,18 +15,17 @@ const Contact = () => {
     // const templeteId ='template_p6btrum';
     // const publicId = 'ZgDKJFv6HZ-HGTmSF';
     emailjs
-    .sendForm('service_2t5muvg', 'template_p6btrum', form.current, {
-      publicKey: 'ZgDKJFv6HZ-HGTmSF',
-    })
-    .then(
-      () => {
-        console.log('SUCCESS!');
-      },
-      (error) => {
-        console.log('FAILED...', error.text);
-      },
-    );
-
+      .sendForm("service_2t5muvg", "template_p6btrum", form.current, {
+        publicKey: "ZgDKJFv6HZ-HGTmSF",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
   };
 
   return (
@@ -57,8 +56,7 @@ const Contact = () => {
                 <input
                   className="bg-[#1A1E23] border-b-2 border-gray-500 py-2 w-full mt-2"
                   type="text"
-                  id="name"
-                  placeholder="John"
+                  name="user_name"
                   required
                 />
               </div>
@@ -69,7 +67,7 @@ const Contact = () => {
                 <input
                   className="bg-[#1A1E23] border-b-2 border-gray-500 py-2 w-full mt-2"
                   type="email"
-                  id="email"
+                  name="user_email"
                   placeholder="Email"
                   required
                 />
@@ -80,8 +78,7 @@ const Contact = () => {
                 </label>
                 <input
                   className="bg-[#1A1E23] border-b-2 border-gray-500 py-2 w-full mt-2"
-                  type="text"
-                  id="message"
+                  name="message"
                   placeholder="message type"
                   required
                 />
@@ -89,7 +86,8 @@ const Contact = () => {
             </div>
 
             <button
-              type="submit" value="Send"
+              type="submit"
+              value="Send"
               className="bg-[#12F7D6] px-4 py-2 rounded-full font-semibold flex items-center gap-2 mx-auto"
             >
               Send Message
