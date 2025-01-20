@@ -16,7 +16,7 @@ const Header = () => {
     <div className="bg-[#292F36] text-gray-300 font-semibold ">
       <div className="container mx-auto flex lg:justify-between py-12 px-2 border-b-2 border-gray-700">
         <div>
-          <span>md.Rashel</span>
+          <Link href={'/'}><span>md.Rashel</span></Link>
         </div>
         <div className="flex flex-row-reverse ml-16">
           <div onClick={() => setOpen(!open)} className="w-5 text-[#12F7D6] lg:hidden">
@@ -29,7 +29,7 @@ const Header = () => {
             </li>
 
             <li>
-              <Link href={"/blog"}>Blogs</Link>
+              <Link href={"/blogs"}>Blogs</Link>
             </li>
             <li className="relative lg:my-0 my-2">
                 <FontAwesomeIcon
