@@ -47,18 +47,18 @@ const Header = () => {
                 icon={faInstagram}
                 className="w-5 text-[#12F7D6]"
               />
-              <Link href={"/instagram"}>Instagram</Link>
+              <Link href={"https://www.linkedin.com/in/rashelmahomud/"} target="_blank">LinkedIn</Link>
             </li>
             <li className="flex items-center gap-1">
               <FontAwesomeIcon
                 icon={faDiscord}
                 className="w-5 text-[#12F7D6]"
               />
-              <Link href={"/discord"}>Discord</Link>
+              <Link href={"https://discord.com/channels/@mdrashel"} target="_blank">Discord</Link>
             </li>
             <li className="flex items-center gap-1">
               <FontAwesomeIcon icon={faGithub} className="w-5 text-[#12F7D6]" />
-              <Link href={"/github"}>Github</Link>
+              <Link href={"https://github.com/rashelmahomud"} target="_blank">Github</Link>
             </li>
           </ul>
         </div>
