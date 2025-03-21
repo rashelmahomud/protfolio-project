@@ -10,7 +10,7 @@ const Works = () => {
       id: 1,
       image: "/assates/carosal fram.png",
       img1: "/assates/abc5.png",
-      img2: "/assates/abc4.png",
+      img2: "/assates/protfolio.png",
 
       alt: "Slide 1",
     },
@@ -25,7 +25,7 @@ const Works = () => {
       id: 3,
       image: "/assates/carosal fram.png",
       img1: "/assates/abc5.png",
-      img2: "/assates/abc4.png",
+      img2: "/assates/protfolio10.png",
       alt: "Slide 3",
     },
   ];
