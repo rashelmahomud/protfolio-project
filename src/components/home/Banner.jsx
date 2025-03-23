@@ -17,7 +17,7 @@ const Banner = () => {
         <h1 className="lg:text-7xl text-3xl text-center mb-5">Developer</h1>
         <div className="flex lg:flex-row flex-col justify-center gap-10 p-3">
           <div className="border-l-4 border-t-4 border-[#12F7D6] rounded-tl-[180px] rounded-br-[180px]">
-          <div className="border-4 rounded-tl-[176px] rounded-br-[180px] p-5 py-12">
+          <div className="border-4 rounded-tl-[176px] rounded-br-[160px] p-5 py-12">
             <div className="flex flex-col items-center">
               <Image
                 src="/assates/logo img.png"
