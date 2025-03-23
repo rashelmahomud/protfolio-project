@@ -18,7 +18,7 @@ const Header = () => {
         <div className="text-[32px]">
           <Link href={'/'}><span>md.Rashel</span></Link>
         </div>
-        <div className="flex flex-row-reverse ml-16">
+        <div className="flex flex-row-reverse lg:ml-16">
           <div onClick={() => setOpen(!open)} className="w-5 text-[#12F7D6] lg:hidden">
             {open ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />}
           </div>

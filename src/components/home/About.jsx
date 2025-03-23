@@ -9,7 +9,7 @@ const HomeAbout = () => {
       <Util />
       <div className="relative z-10 flex lg:flex-row flex-col justify-center gap-20">
         <div className="lg:w-[700px]">
-          <button className="bg-[#1A1E23] text-white text-3xl my-5 p-5 border-4 border-teal-300 px-5 py-3 rounded-tl-[50px] rounded-br-[50px]">
+          <button className="bg-[#1A1E23] text-white text-3xl my-5 lg:ml-0 ml-5 p-5 border-4 border-teal-300 px-5 py-3 rounded-tl-[50px] rounded-br-[50px]">
             About Me
           </button>
 

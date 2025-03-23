@@ -17,7 +17,7 @@ import Line from "../shared/Line";
 const Skill = () => {
   return (
     <div className='bg-[url("/assates/abc5.png")] bg-no-repeat bg-center bg-cover'>
-      <div className=" bg-[#1A1E23] bg-opacity-60 p-20">
+      <div className=" bg-[#1A1E23] bg-opacity-80 p-20">
         <div>
           <div className="flex justify-center gap-20">
             <div className="ml-32">
