@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Util from "../shared/Util";
 import Image from "next/image";
 import Line from "../shared/Line";
+import Link from "next/link";
 
 const Works = () => {
   const slides = [
@@ -11,7 +12,8 @@ const Works = () => {
       image: "/assates/carosal fram.png",
       img1: "/assates/abc5.png",
       img2: "/assates/protfolio.png",
-
+      github: "https://github.com/rashelmahomud/protfolio-project",
+      live: "https://protfolio-project-blue.vercel.app",
       alt: "Slide 1",
     },
     {
@@ -19,6 +21,8 @@ const Works = () => {
       image: "/assates/carosal fram.png",
       img1: "/assates/abc5.png",
       img2: "/assates/abc4.png",
+      github: "https://github.com/rashelmahomud/protfolio-project",
+      live: "https://github.com/rashelmahomud/protfolio-project",
       alt: "Slide 2",
     },
     {
@@ -26,6 +30,8 @@ const Works = () => {
       image: "/assates/carosal fram.png",
       img1: "/assates/abc5.png",
       img2: "/assates/protfolio10.png",
+      github: "https://github.com/rashelmahomud/asperia-helth-care",
+      live: "https://asperia-helth-care.vercel.app/",
       alt: "Slide 3",
     },
   ];
@@ -56,7 +62,7 @@ const Works = () => {
           <div className="overflow-hidden relative rounded-lg">
             {/* Slides */}
             <div
-              className="flex transition-transform duration-500"
+              className="flex transition-transform duration-500  py-3"
               style={{ transform: `translateX(-${currentSlide * 100}%)` }}
             >
               {slides.map((slide) => (
@@ -70,16 +76,37 @@ const Works = () => {
                       height={800}
                     />
 
-                    <div className="">
+                    <div>
                       <img
                         src={slide.img1}
                         alt={slide.alt}
                         className="object-cover lg:mb-28 lg:ml-[68px] lg:w-[245px] lg:h-[325px] w-[120px] h-[160px] ml-9 absolute lg:-mt-[442px] -mt-[220px] z-10"
                       />
+                      <div className="flex">
+                        <Link
+                          className="text-sm font-semibold ml-10"
+                          href={slide.github}
+                          target="_blank"
+                        >
+                          <button className="px-6 py-2 rounded-full font-semibold bg-[#12F7D6] backdrop-blur-md border border-white/20 hover:bg-white/20 hover:text-white transition-all">
+                            View code
+                          </button>
+                        </Link>
+                        <Link
+                          className="text-sm font-semibold ml-10"
+                          href={slide.live}
+                          target="_blank"
+                        >
+                          <button className="px-6 py-2 rounded-full font-semibold bg-white/10 backdrop-blur-md text-white border border-white/20 hover:bg-white/20 transition-all">
+                            View Live
+                          </button>
+                        </Link>
+                      </div>
+
                       <img
                         src={slide.img2}
                         alt={slide.alt}
-                        className="object-cover lg:w-[352px] lg:h-[225px] w-[170px] h-[100px] absolute lg:-mt-[354px] -mt-[180px] lg:ml-[360px] ml-[185px] z-10"
+                        className="object-cover lg:w-[352px] lg:h-[225px] w-[170px] h-[100px] absolute lg:-mt-[385px] -mt-[215px] lg:ml-[360px] ml-[185px] z-10"
                       />
                     </div>
                   </div>
