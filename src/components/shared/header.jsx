@@ -14,8 +14,8 @@ const Header = () => {
 
   return (
     <div className="bg-[#292F36] text-gray-300 font-semibold ">
-      <div className="container mx-auto flex lg:justify-between py-12 px-2 border-b-2 border-gray-700">
-        <div>
+      <div className="container mx-auto flex lg:justify-between items-center py-12 px-2 border-b-2 border-gray-700">
+        <div className="text-[32px]">
           <Link href={'/'}><span>md.Rashel</span></Link>
         </div>
         <div className="flex flex-row-reverse ml-16">
@@ -23,26 +23,26 @@ const Header = () => {
             {open ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />}
           </div>
 
-          <ul className={`lg:flex gap-5 transition-all duration-500 ease-in  ${open ? "top-18 opacity-100" : "top-[-490px] lg:opacity-100 opacity-0 lg:mt-0 -mt-40"}`}>
-            <li className="text-[#12F7D6]">
+          <ul className={`lg:flex gap-5 transition-all duration-500 ease-in items-center ${open ? "top-18 opacity-100" : "top-[-490px] lg:opacity-100 opacity-0 lg:mt-0 -mt-40"}`}>
+            <li className="text-[#12F7D6] text-[24px]">
               <Link href={"/"}>Home</Link>
             </li>
 
-            <li>
+            <li className="text-[24px]">
               <Link href={"/blogs"}>Blogs</Link>
             </li>
             <li className="relative lg:my-0 my-2">
                 <FontAwesomeIcon
                   icon={faMagnifyingGlass}
-                  className="lg:w-5 absolute ml-40 mt-1 text-gray-500"
+                  className="lg:w-5 absolute ml-44 mt-2 text-gray-500"
                 />
                 <input
                   type="text"
-                  className="rounded-full outline-none lg:w-50"
+                  className="rounded-full outline-none lg:w-[204px] h-[32px] px-2 text-gray-900"
                   placeholder=""
                 />
             </li>
-            <li className="flex items-center gap-1">
+            <li className="flex items-center gap-1 text-[16px]">
               <FontAwesomeIcon
                 icon={faInstagram}
                 className="w-5 text-[#12F7D6]"
