@@ -4,12 +4,12 @@ import Util from "../shared/Util";
 
 const HomeAbout = () => {
   return (
-    <div className="relative bg-[#1A1E23] lg:py-20 py-10">
+    <div className="relative bg-[#1A1E23] lg:py-20 py-10 lg:p-0 p-3">
       <div className="absolute inset-0 bg-[url('/assates/abc.png')] bg-center bg-no-repeat bg-cover opacity-10 z-0"></div>
       <Util />
       <div className="relative z-10 flex lg:flex-row flex-col justify-center gap-20">
         <div className="lg:w-[700px]">
-          <button className="bg-[#1A1E23] text-white text-3xl my-5 lg:ml-0 ml-5 p-5 border-4 border-teal-300 px-5 py-3 rounded-tl-[40px] rounded-br-[40px]">
+          <button className="bg-[#1A1E23] text-white lg:text-3xl text-[32px] my-5 lg:ml-0 ml-5 p-5 border-4 border-teal-300 px-5 py-3 rounded-tl-[40px] rounded-br-[40px]">
             About Me
           </button>
 

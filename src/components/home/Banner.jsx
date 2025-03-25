@@ -86,11 +86,11 @@ const Banner = () => {
             <div>
               <pre>
                 &lt;h1&gt;
-                <h1 className="lg:text-6xl px-2">Hey</h1>
-                <h1 className="lg:text-6xl mb-2 px-2">
+                <h1 className="lg:text-6xl text-[32px] px-2">Hey</h1>
+                <h1 className="lg:text-6xl text-[32px] mb-2 px-2">
                   I'am <span className="text-[#12F7D6]">Rashel</span>,
                 </h1>
-                <span className="lg:text-5xl px-2">Front-EndDeveloper</span>
+                <span className="lg:text-5xl text-[28px] px-2">Front-EndDeveloper</span>
                 &lt;/h1&gt;
               </pre>
               <pre>&lt;p&gt;</pre>
