@@ -64,7 +64,7 @@ const Header = () => {
             <li className="flex items-center gap-1 text-base">
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="w-5 text-[#12F7D6]"
+                className="text-[20px] mr-1 text-[#12F7D6]"
               />
               <Link
                 href={"https://www.linkedin.com/in/rashelmahomud/"}
@@ -76,7 +76,7 @@ const Header = () => {
             <li className="flex items-center gap-1">
               <FontAwesomeIcon
                 icon={faDiscord}
-                className="w-5 text-[#12F7D6]"
+                className="text-[20px] mr-1 text-[#12F7D6]"
               />
               <Link
                 href={"https://discord.com/channels/@mdrashel"}
@@ -86,7 +86,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="flex items-center gap-1">
-              <FontAwesomeIcon icon={faGithub} className="w-5 text-[#12F7D6]" />
+              <FontAwesomeIcon icon={faGithub} className="text-[20px] mr-1 text-[#12F7D6]" />
               <Link href={"https://github.com/rashelmahomud"} target="_blank">
                 Github
               </Link>

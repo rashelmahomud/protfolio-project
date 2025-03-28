@@ -86,15 +86,14 @@ const Banner = () => {
             <div>
               <pre>
                 &lt;h1&gt;
-                <h1 className="lg:text-6xl text-[32px] px-2">Hey</h1>
-                <h1 className="lg:text-6xl text-[32px] mb-2 px-2">
+                <h1 className="lg:text-6xl text-[32px] px-5">Hey</h1>
+                <h1 className="lg:text-6xl text-[32px] mb-2 px-5">
                   I'am <span className="text-[#12F7D6]">Rashel</span>,
                 </h1>
-                <span className="lg:text-5xl text-[28px] px-2">Front-EndDeveloper</span>
-                &lt;/h1&gt;
+                <span className="lg:text-5xl text-[28px] px-5">Front-EndDeveloper</span>&lt;/h1&gt;
               </pre>
               <pre>&lt;p&gt;</pre>
-              <p className="p-3">
+              <p className="p-5">
                 I help business grow by crafting amazing web experiences. If
                 you’re <br />
                 looking for a developer that likes to get stuff done,
@@ -108,7 +107,7 @@ const Banner = () => {
                 </Link>
               </h1>
             </div>
-            <div className="flex flex-col mx-auto bg-[#1A1E23] p-10 m-10 rounded-[80px]">
+            <div className="flex flex-col mx-auto bg-[#1A1E23] p-10 m-5 rounded-[80px]">
               <div className="flex gap-5 mt-5">
                 <span className="lg:text-5xl text-2xl text-[#12F7D6] font-semibold">
                   4
