@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <div className="bg-[#292F36] text-gray-300 font-semibold ">
       <div className="container mx-auto flex lg:justify-between items-center py-12 px-2 border-b-2 border-gray-700">
-        <div className="lg:text-[32px] text-base">
+        <div className="lg:text-[25px] text-base">
           <Link href={"/"}>
             <span>md.Rashel</span>
           </Link>
@@ -43,11 +43,11 @@ const Header = () => {
                 : "top-[-490px] lg:opacity-100 opacity-0 lg:mt-0 -mt-40"
             }`}
           >
-            <li className="text-[#12F7D6] lg:text-2xl text-base">
+            <li className="text-[#12F7D6] lg:text-[20px] text-base">
               <Link href={"/"}>Home</Link>
             </li>
 
-            <li className="lg:text-2xl text-base">
+            <li className="lg:text-[20px] text-base">
               <Link href={"/blogs"}>Blogs</Link>
             </li>
             <li className="relative lg:my-0 my-2">
