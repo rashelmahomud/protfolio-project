@@ -29,14 +29,14 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-[#1A1E23]">
+    <div className="bg-[#1A1E23] py-3">
       <div className="flex justify-center gap-20">
         <div>
           <Util />
         </div>
       </div>
       <div className="text-center">
-        <h1 className="text-6xl text-[#12F7D6] font-semibold">Contact</h1>
+        <h1 className="lg:text-6xl text-4xl text-[#12F7D6] font-semibold">Contact</h1>
         <Line />
         <p className="text-white font-semibol ">
           I’m currently available for freelance work

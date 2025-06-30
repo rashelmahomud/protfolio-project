@@ -28,7 +28,7 @@ const Skill = () => {
             </span>
           </div>
           <div className="text-center">
-            <h1 className="text-6xl text-[#12F7D6] font-semibold">Skills</h1>
+            <h1 className=" lg:text-6xl text-4xl text-[#12F7D6] font-semibold">Skills</h1>
             <Line small />
             <p className="text-white font-semibol">
               I am striving to never stop learning and improving

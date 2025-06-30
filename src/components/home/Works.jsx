@@ -52,7 +52,7 @@ const Works = () => {
           <Util />
         </div>
         <div className="text-center">
-          <h1 className="text-6xl text-[#12F7D6] font-semibold">Works</h1>
+          <h1 className="lg:text-6xl text-4xl text-[#12F7D6] font-semibold">Works</h1>
           <Line small />
           <p className="font-semibol text-white">
             I had the pleasure of working with these awesome projects
