@@ -24,7 +24,7 @@ const BlogPage = () => {
           My thoughts on technology and business, welcome to subscribe
         </p>
       </div>
-      <div className="lg:px-20 p-3 lg:mx-20 mx-5 ">
+      <div className="p-3 mx-5 ">
         <div className="flex flex-col lg:flex-row gap-10 border-y-2 border-gray-600 py-8">
           <Image
             src={"/assates/abc3.jpg"}
