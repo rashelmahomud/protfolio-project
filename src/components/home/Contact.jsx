@@ -7,23 +7,25 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const form = useRef();
+  
+  const form = useRef(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
-    // const serviceId ='service_2t5muvg';
-    // const templeteId ='template_p6btrum';
-    // const publicId = 'ZgDKJFv6HZ-HGTmSF';
+     const serviceId ='service_3wpzc8b';
+    const templeteId ='template_p6btrum';
+     const publicId = 'XsFiKyw_pjMlUgHTV';
     emailjs
-      .sendForm("service_2t5muvg", "template_p6btrum", form.current, {
-        publicKey: "ZgDKJFv6HZ-HGTmSF",
+      .sendForm(serviceId, templeteId, form.current, {
+        publicKey: publicId
       })
       .then(
         () => {
           alert("successFully Send Email!");
+          form.current.reset();
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          console.log("FAILED...", error.text,'there have an error');
         }
       );
   };
