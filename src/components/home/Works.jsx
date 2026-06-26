@@ -22,7 +22,7 @@ const Works = () => {
       img1: "/assates/abc5.png",
       img2: "/assates/abc4.png",
       github: "https://github.com/rashelmahomud/protfolio-project",
-      live: "https://github.com/rashelmahomud/protfolio-project",
+      live: "https://vegist-shop.vercel.app",
       alt: "Slide 2",
     },
     {
