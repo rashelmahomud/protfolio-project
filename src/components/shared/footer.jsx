@@ -2,10 +2,14 @@ import { faDiscord, faGithub, faInstagram } from "@fortawesome/free-brands-svg-i
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
+
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 bg-[#1A1E23] p-4 border-t-2 border-gray-700 text-gray-400 gap-5">
       <div>
-        <p>© 2025 rashel. All rights reserved.</p>
+        <p>© {year} rashel. All rights reserved.</p>
       </div>
       <ul className="flex gap-2">
         <li>Privacy Policy</li>

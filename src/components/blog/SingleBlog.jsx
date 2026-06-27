@@ -5,6 +5,10 @@ import Link from "next/link";
 import { useState } from "react";
 const SingleBlog = () => {
   const [open, setOpen] = useState(false);
+  const date = new Date();
+  const year = date.getFullYear();
+  const month = date.getMonth();
+  const day = date.getDate();
 
   const openTogel = () => {
     setOpen((prev) => !prev);
@@ -44,7 +48,7 @@ const SingleBlog = () => {
             <ul className="flex lg:flex-row flex-col gap-5 text-white my-5">
               <li className="bg-gray-500 px-2 rounded-full">Web development</li>
               <li>Text Sinan</li>
-              <li>Date : 10.Oct 2025</li>
+              <li>Date : {day}. {month + 1} {year}</li>
               <li>Read 1 Min</li>
             </ul>
           </div>
