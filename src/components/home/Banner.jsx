@@ -78,9 +78,6 @@ const Banner = () => {
               Download CV
               <FontAwesomeIcon
                 icon={faDownload}
-                
-
-
                 className="w-5 text-gray-600"
               />
             </Link>
