@@ -73,13 +73,17 @@ const Banner = () => {
                 REACT
               </li>
             </ul>
-            <button className="flex justify-center items-center gap-2 bg-white text-gray-300 font-semibold text-gray-600 text-xl leading-6 p-4 rounded-full mt-6">
+            <Link href={'https://docs.google.com/document/d/1ttTKHSX15_qCmiMZNTmlsAuzpa9HWhS-XKdvQC6we0Q/edit?usp=sharing'} target="_blank"  className="flex justify-center items-center gap-2 bg-white font-semibold text-gray-600 leading-6 p-2 rounded-full mt-6 w-2/3">
+            
               Download CV
               <FontAwesomeIcon
                 icon={faDownload}
+                
+
+
                 className="w-5 text-gray-600"
               />
-            </button>
+            </Link>
           </div>
           </div>
           <div className="flex lg:flex-row flex-col p-3 my-10 gap-5">
