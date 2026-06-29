@@ -27,7 +27,7 @@ const Header = () => {
         {/* Logo */}
         <Link
           href="/"
-          className="text-xl lg:text-3xl font-bold text-red-500"
+          className="text-xl lg:text-3xl font-bold text-yellow-500"
           onClick={closeMenu}
         >
           <span className="text-[#12F7D6]">md.</span>Rashel
