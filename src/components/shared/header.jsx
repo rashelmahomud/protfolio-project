@@ -53,6 +53,14 @@ const Header = () => {
               Blogs
             </Link>
           </li>
+          <li>
+            <Link
+              href="/projects"
+              className="hover:text-[#12F7D6] duration-300"
+            >
+              projects
+            </Link>
+          </li>
 
           {/* Search */}
           <li>
@@ -149,6 +157,15 @@ const Header = () => {
                 className="hover:text-[#12F7D6]"
               >
                 Blogs
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/projects"
+                onClick={closeMenu}
+                className="hover:text-[#12F7D6]"
+              >
+                Projects
               </Link>
             </li>
 
