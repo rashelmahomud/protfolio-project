@@ -58,7 +58,7 @@ const Header = () => {
               href="/projects"
               className="hover:text-[#12F7D6] duration-300"
             >
-              projects
+              Projects
             </Link>
           </li>
 

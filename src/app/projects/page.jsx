@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const projectsData = [
   {
@@ -9,17 +10,19 @@ const projectsData = [
     title: 'Healthcare & Doctor Appointment System',
     description: 'A comprehensive healthcare web application featuring doctor profiles, appointment booking, and real-time dashboard management.',
     tags: ['Next.js', 'Tailwind CSS', 'Firebase'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example/healthcare',
-    category: 'Next.js',
+    image: "https://i.ibb.co.com/Zp0zzdbP/d.png",
+    liveUrl: 'https://helth-care-eight.vercel.app',
+    githubUrl: 'https://github.com/rashelmahomud/helth-care',
+    category: 'Full Stack',
   },
   {
     id: 2,
     title: 'Webb School - E-Learning Platform',
     description: 'Full-stack course browsing platform with user authentication, role-based admin controls, and integrated Stripe payments.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example/webb-school',
+    image: "https://i.ibb.co.com/Zp0zzdbP/d.png",
+    liveUrl: 'https://webb-school-mission-2022.vercel.app/',
+    githubUrl: 'https://github.com/dodotechbd/Webb-School',
     category: 'Full Stack',
   },
   {
@@ -27,13 +30,14 @@ const projectsData = [
     title: 'Vegist Shop - Inventory Management',
     description: 'A warehouse and inventory management dashboard application designed for streamlined stock tracking and data visualization.',
     tags: ['Next.js', 'Tailwind CSS'],
-    liveUrl: 'https://example.com',
-    githubUrl: 'https://github.com/example/vegist-shop',
-    category: 'Next.js',
+    image: "https://i.ibb.co.com/h19YnV53/vegist.png",
+    liveUrl: 'https://vegist-shop.vercel.app/',
+    githubUrl: 'https://github.com/rashelmahomud/VEGIST_SHOP',
+    category: 'React.js',
   },
 ];
 
-const categories = ['All', 'Next.js', 'Full Stack', 'React'];
+const categories = ['All', 'Next.js', 'Full Stack', 'React.js'];
 
 export default function ProjectsPage() {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -86,11 +90,21 @@ export default function ProjectsPage() {
               key={project.id}
               className="group bg-slate-900/50 rounded-2xl overflow-hidden border border-slate-800/80 hover:border-cyan-500/50 transition-all duration-300 flex flex-col justify-between hover:shadow-xl hover:shadow-cyan-500/10"
             >
-              {/* Project Image / Icon Container using FontAwesome */}
+              {/* Project Image Container */}
+   {/* Dynamic Image Container */}
               <div className="relative h-52 w-full overflow-hidden bg-slate-800">
-                <div className="absolute inset-0 flex items-center justify-center text-slate-600 bg-slate-800 group-hover:scale-105 transition-transform duration-500">
-                  <i className="fa-solid fa-folder-open text-5xl opacity-40"></i>
-                </div>
+                {project.image ? (
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div className="absolute inset-0 flex items-center justify-center text-slate-600 bg-slate-800">
+                    <i className="fa-solid fa-folder-open text-5xl opacity-40"></i>
+                  </div>
+                )}
               </div>
 
               {/* Content Area */}
