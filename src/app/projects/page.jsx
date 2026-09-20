@@ -35,6 +35,26 @@ const projectsData = [
     githubUrl: 'https://github.com/rashelmahomud/VEGIST_SHOP',
     category: 'React.js',
   },
+  {
+    id: 4,
+    title: 'Baby Shop - Onganic Infant',
+    description: 'A E-commarce website customer can buy baby items. I made this website by myself using fully AI.',
+    tags: ['Next.js', 'Tailwind CSS','AI'],
+    image: "https://i.ibb.co.com/xqb09bZJ/dddddddddddddddddd.png",
+    liveUrl: 'https://nesta-baby-shop.vercel.app/',
+    githubUrl: 'https://github.com/rashelmahomud/nesta-baby-shop',
+    category: 'Next.js',
+  },
+  {
+    id: 5,
+    title: 'Supper Specialities Laboraties',
+    description: 'For The Frist Time In Chaittagon Supper SpecialitiesLaboraties Let',
+    tags: ['Next.js', 'Tailwind CSS'],
+    image: "https://i.ibb.co.com/r2SWR142/eeff.png",
+    liveUrl: 'https://asperia-helth-care.vercel.app',
+    githubUrl: 'https://github.com/rashelmahomud/asperia-helth-care',
+    category: 'Next.js',
+  },
 ];
 
 const categories = ['All', 'Next.js', 'Full Stack', 'React.js'];
