@@ -73,7 +73,7 @@ const Banner = () => {
                 REACT
               </li>
             </ul>
-            <Link href={'https://docs.google.com/document/d/1ttTKHSX15_qCmiMZNTmlsAuzpa9HWhS-XKdvQC6we0Q/edit?usp=sharing'} target="_blank"  className="flex justify-center items-center gap-2 bg-white font-semibold text-gray-600 leading-6 p-2 rounded-full mt-6 w-2/3">
+            <Link href={'https://docs.google.com/document/d/1ttTKHSX15_qCmiMZNTmlsAuzpa9HWhS-XKdvQC6we0Q/edit?tab=t.0'} target="_blank"  className="flex justify-center items-center gap-2 bg-white font-semibold text-gray-600 leading-6 p-2 rounded-full mt-6 w-2/3">
             
               Download CV
               <FontAwesomeIcon
